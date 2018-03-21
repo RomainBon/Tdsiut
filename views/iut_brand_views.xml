@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+      <record model="ir.ui.view" id="tdsimodel.model_tree_view">
+          <field name="name">tdsimodel.model.tree</field>
+          <field name="model">tdsimodel.tdsimodel</field>
+          <field name="arch" type="xml">
+              <tree string="Modèle">
+                  <field name="name"/>
+                  <field name="value"/>
+                  <field name="value2"/>
+              </tree>
+          </field>
+      </record>
+
+      <record id="tdsimodel.model_action" model="ir.actions.act_window">
+          <field name="name">Modèle</field>
+          <field name="type">ir.actions.act_window</field>
+          <field name="res_model">tdsimodel.tdsimodel</field>
+          <field name="view_type">form</field>
+          <field name="view_mode">tree,form</field>
+      </record>
+
+      <record model="ir.actions.act_window" id="tdsimodel.action_window">
+          <field name="name">tdsimodel window</field>
+          <field name="res_model">tdsimodel.tdsimodel</field>
+          <field name="view_mode">tree,form</field>
+      </record>
+  </data>
+</odoo>
