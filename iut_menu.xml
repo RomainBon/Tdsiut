@@ -10,5 +10,20 @@
 
             <menuitem id="iut_device" parent="menu_modele_config"
                 action="iut_device_model_action" sequence="10" name="device"/>
+
+            <menuitem id="iut_brand" parent="menu_modele_config"
+                action="iut_brand_model_action" sequence="10" name="brand"/>
+
+            <menuitem id="iut_it_model" parent="menu_modele_config"
+                action="iut_it_model_model_action" sequence="10" name="it_model"/>
+
+            <menuitem id="iut_it_model_type" parent="menu_modele_config"
+                action="iut_it_model_type_model_action" sequence="10" name="it_model_type"/>
+
+            <menuitem id="iut_model_type" parent="menu_modele_config"
+                action="iut_model_type_model_action" sequence="10" name="model_type"/>
+
+            <menuitem id="res_partner" parent="menu_modele_config"
+                action="res_partner_model_action" sequence="10" name="res_partner"/>
     </data>
 </openerp>

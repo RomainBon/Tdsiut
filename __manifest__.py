@@ -28,9 +28,13 @@
         'datas/datas.xml',
         'views/views.xml',
         'views/iut_device_views.xml',
+        'views/iut_brand_views.xml',
+        'views/iut_it_model_view.xml',
+        'views/iut_it_model_type_view.xml',
+        'views/iut_model_type_view.xml',
+        'views/res_partner_views.xml',
         'security/ir.model.access.csv',
-        'iut_menu.xml',
-        'tdsimodel_menu.xml',
+        'iut_menu.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

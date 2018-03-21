@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+      <record model="ir.ui.view" id="tdsiut.iut_model_type_tree_view">
+          <field name="name">iut_model_type.model.tree</field>
+          <field name="model">iut.model.type</field>
+          <field name="arch" type="xml">
+              <tree string="Modèle">
+                  <field name="name"/>
+                  <field name="model_ids"/>
+              </tree>
+          </field>
+      </record>
+
+      <record id="iut_model_type_model_action" model="ir.actions.act_window">
+          <field name="name">iut_model_type</field>
+          <field name="type">ir.actions.act_window</field>
+          <field name="res_model">iut.model.type</field>
+          <field name="view_type">form</field>
+          <field name="view_mode">tree,form</field>
+      </record>
+  </data>
+</odoo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+      <record model="ir.ui.view" id="tdsiut.res_partner_tree_view">
+          <field name="name">res_partner.model.tree</field>
+          <field name="model">res.partner</field>
+          <field name="arch" type="xml">
+              <tree string="Modèle">
+                  <field name="employee_ref"/>
+                  <field name="device_ids"/>
+              </tree>
+          </field>
+      </record>
+
+      <record id="res_partner_model_action" model="ir.actions.act_window">
+          <field name="name">res_partner</field>
+          <field name="type">ir.actions.act_window</field>
+          <field name="res_model">res.partner</field>
+          <field name="view_type">form</field>
+          <field name="view_mode">tree,form</field>
+      </record>
+  </data>
+</odoo>
